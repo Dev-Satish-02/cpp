@@ -1,0 +1,6 @@
+Use std::endl when you:
+Want output to appear immediately (e.g., in real-time logs).
+Need to clear the buffer to prevent data loss (useful in critical systems).
+Use "\n" when:
+Performance is important (e.g., competitive programming).
+You do not need immediate output display.
