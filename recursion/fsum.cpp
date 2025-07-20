@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
 
-void printFrom1ToN(int n)
+int sumFunctional(int n)
 {
     if (n == 0)
-        return;
-    printFrom1ToN(n - 1);
-    cout << n << " ";
+        return 0;
+    return n + sumFunctional(n - 1);
 }
 
 int main()
@@ -15,6 +14,6 @@ int main()
     cout << "Enter N: ";
     cin >> N;
 
-    printFrom1ToN(N);
+    cout << "Sum is: " << sumFunctional(N) << endl;
     return 0;
 }
