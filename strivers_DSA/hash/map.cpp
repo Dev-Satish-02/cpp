@@ -10,7 +10,8 @@ int main() {
     // Create a map to hash large numbers (stores keys in sorted order)
     map<int, int> hash;
 
-    // Step 1: Pre-storing frequencies
+
+   // Step 1: Pre-storing frequencies
     for (int i = 0; i < n; i++) {
         hash[arr[i]]++;
     }
