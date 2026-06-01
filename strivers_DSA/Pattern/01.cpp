@@ -1,9 +1,9 @@
 /*
 
-*
-**
-***
-****
+*****
+*****
+*****
+*****
 *****
 
 */
@@ -15,12 +15,12 @@ int main()
 {
     int x;
     cout << "Enter a number: ";
-    std::cin >> x;
+    cin >> x;
     for (int i = 1; i <= x; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= 5; j++)
         {
-            std::cout << "*";
+            cout << "*";
         }
         cout << endl;
     }

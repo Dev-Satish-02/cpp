@@ -1,10 +1,10 @@
 /*
 
-*****
-****
-***
-**
-*
+1
+12
+123
+1234
+12345
 
 */
 
@@ -15,12 +15,12 @@ int main()
 {
     int x;
     cout << "Enter a number: ";
-    std::cin >> x;
-    for (int i = x; i >= 1; i--)
+    cin >> x;
+    for (int i = 1; i <= x; i++)
     {
         for (int j = 1; j <= i; j++)
         {
-            std::cout << "*";
+            cout << j;
         }
         cout << endl;
     }
