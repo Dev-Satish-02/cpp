@@ -8,9 +8,7 @@ int main()
     cin >> n;
     int nn = abs(n);
     if (nn == 0)
-    {
         reversed = 0;
-    }
     else
     {
         while (nn > 0)
@@ -21,11 +19,7 @@ int main()
         }
     }
     if (reversed == n)
-    {
         cout << "The number is a palindrome." << endl;
-    }
     else
-    {
         cout << "The number is not a palindrome." << endl;
-    }
 }
